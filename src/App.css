@@ -1,0 +1,229 @@
+body {
+   background-color: #cacccd65;
+   color:#121212;
+   margin:0 0 0 0;
+   
+}
+
+Header {
+   width: 100%;
+   background-color:#4a56b6;
+   fill-opacity: 0.5;
+   font-size: 14px;
+   height: 50px;
+   display: flex;
+   align-items: flex-start;
+
+}
+
+header img {
+   margin-top: 10px;
+   margin-left: 5px;
+}
+
+header div {
+   position: relative;
+   margin: auto;
+   font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+Main .MainCatalog {
+   display: flex;
+   flex-flow: column;
+   margin-top: 3%;
+   margin-right: 3%;
+   margin-left: 3%;
+   background-color:#fffffd;
+   border-radius: 20px;
+   font-family: 'Times New Roman';
+}
+
+Main .divimg {
+
+   margin-top: 0px;
+   padding-top: 0px;
+   margin: auto;
+   width: 300px;
+   height: 160px;
+}
+
+Main img {
+   object-fit: cover;
+}
+
+
+Main .BrandModel {
+   position: relative;
+   padding-top: 3%;
+   padding-left: 3%;
+   color:#000000;
+   font-size: 18px;
+
+}
+
+Main .FiBookmark {
+   font-size: 25px;
+   float: right;
+   margin-right: 20px;
+}
+
+Main .FiBookmark.active {
+   color: #f81c1c;
+}
+
+Main .PriceAuto {
+   display: inline-block;
+   font-family: 'Arial Black';
+   font-size: 21px;
+   font-weight: 900;
+   padding-top: 1%;
+   padding-left: 3%;
+}
+
+
+Main ul  {
+   list-style-type: none;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: flex-start;
+   padding-left: 3%;
+   font-size: 16px;
+}
+
+Main hr{
+   margin-top: 0;
+   width: 90%;
+   background-color: #eee;
+   color: #eee;
+}
+
+
+Main button {
+   font-size: 18px;
+   margin: 5px auto;
+   margin-bottom: -10px;
+   width: 200px;
+   height: 33px;
+   color:black;
+   background-color:#bebebe;
+   border:none;
+   border-radius: 5px;
+}
+
+Main button:active { 
+   background-color: #2b2b2a ;
+   color: #bebebe;
+   opacity: 0.8; 
+   box-shadow: 0px 0px 2px 2px #4a56b6;
+}
+
+.modal{
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  padding: 2rem;
+  background-color:rgb(0, 0, 0,0.15);
+	
+  background-attachment:none ;
+}
+
+.modal.block{
+   display: none;
+}
+
+.modal-main {
+   display: block;
+   position:fixed;
+   background-color: white;
+   width: 90%;
+   height: 90%;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   border-radius: 15px;
+ }
+
+Main .ModalHeader {
+   width: 100%;
+   background-color:#4a56b6;
+   fill-opacity: 0.5;
+   font-family: 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   font-size: 22px;
+   font-weight: 900;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   border-radius: 15px 15px 0 0 ;
+}
+
+Main .ModalHeader p {
+   margin: auto;
+}
+
+Main .VscClose {
+   font-size: 30px;
+   float: right;
+   color:#000000;
+   fill-opacity: 1;
+   padding-right: 2%;
+}
+
+Main .modalmainForm {
+   padding-top: 10px;
+   height: 85%;
+   overflow-x: scroll;
+}
+
+form {
+
+   display: flex;
+   flex-flow: column ;
+}
+
+Main Form label {
+   font-size: 17px;
+   font-family: 'Trebuchet MS';
+   font-weight: 600;
+   margin-left: 13px;
+}
+
+Main Form Input {
+   position: relative;
+   font-family: 'Trebuchet MS';
+   font-size: 16px ;
+   height: 40px;
+   width: 90%;
+   border-radius: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 5px;
+   margin-bottom: 15px;
+   box-shadow: 1px 1px 1px 1px #aaaaaa;
+}
+
+Input:focus{
+   outline: inherit;
+   outline-offset: 2px;
+}
+
+Main .Consultant {
+   width: 90%;
+   margin-left: 13px;
+   font-size: 18px;
+}
+
+.Rent {
+   position: relative;
+   margin-bottom: 10%;
+   left: 50%;
+   transform: translate(-50%, 0);
+}
+
+footer {
+   font-size: 14px;
+}

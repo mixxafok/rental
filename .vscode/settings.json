@@ -1,0 +1,5 @@
+{
+   "prettier.tabWidth": 3,
+   "editor.tabSize": 3,
+   "workbench.tree.indent": 8
+}
