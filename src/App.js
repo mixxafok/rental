@@ -7,7 +7,8 @@ import Header from "./components/Header";
 
 export default function App() {
 
-   const [catalog, setcatalog] = useState([
+ const  [catalog, setcatalog] = useState([
+   
       {
          id: 1,
          img: require('../src/img/BMWX1.jpg'),
@@ -35,6 +36,7 @@ export default function App() {
          Bookmark: false
       }
    ]);
+
    return (
       <div>
          <Header/>

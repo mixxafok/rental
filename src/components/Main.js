@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {FiBookmark} from  "react-icons/fi";
 import {CgCloseO} from "react-icons/cg";
+import {default as catalog} from "../App";
 
 export default function Main() {
 
