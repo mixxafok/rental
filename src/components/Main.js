@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {FiBookmark} from  "react-icons/fi";
 import {CgCloseO} from "react-icons/cg";
-import {default as catalog} from "../App";
+
 
 export default function Main() {
 
@@ -21,7 +21,138 @@ export default function Main() {
    }
 
    let [fbookmark, setfbookmark] = useState(false)
-
+   const [catalog, setcatalog] = useState([
+      {
+        id: 1,
+        img: require('../img/VWPassat.jpg'),
+        Brand: "Volkswagen",
+        Model: "Passat",
+        Year: "2010",
+        Gearbox: "робот",
+        Engine_L: 2.0,
+        Fuel: "дизель",
+        Body_style: "универсал",
+        Price: 55,
+        Bookmark: false
+      },
+      {
+        id: 2,
+        img: require('../img/AudiA6.jpg'),
+        Brand: "Audi",
+        Model: "A6",
+        Year: "2013",
+        Gearbox: "вариатор",
+        Engine_L: 2.0,
+        Fuel: "бензин",
+        Body_style: "седан",
+        Price: 70,
+        Bookmark: false
+      },
+      {
+        id: 3,
+        img: require('../img/BMWX1.jpg'),
+        Brand: "BMW",
+        Model: "X1",
+        Year: "2010",
+        Gearbox: "механика",
+        Engine_L: 2.0,
+        Fuel: "бензин",
+        Body_style: "внедорожник",
+        Price: 60,
+        Bookmark: false
+      },
+      {
+        id: 4,
+        img: require('../img/MersVivo.jpg'),
+        Brand: "Mercedes-Benz",
+        Model: "Viano W639",
+        Year: "2009",
+        Gearbox: "механика",
+        Engine_L: 2.1,
+        Fuel: "дизель",
+        Body_style: "микроавтобус пассажирский",
+        Price: 100,
+        Bookmark: false
+      },
+      {
+        id: 5,
+        img: require('../img/FordMondeo.jpg'),
+        Brand: "Ford",
+        Model: "Mondeo IV",
+        Year: "2009",
+        Gearbox: "механика",
+        Engine_L: 1.8,
+        Fuel: "дизель",
+        Body_style: "универсал",
+        Price: 40,
+        Bookmark: false
+      },
+      {
+        id: 6,
+        img: require('../img/HuyndaiSolaris.jpg'),
+        Brand: "Huyndai",
+        Model: "solaris",
+        Year: "2016",
+        Gearbox: "автомат",
+        Engine_L: 1.6,
+        Fuel: "бензин",
+        Body_style: "седан",
+        Price: 50,
+        Bookmark: false
+      },
+      {
+        id: 7,
+        img: require('../img/MisthuSpace.jpg'),
+        Brand: "Mitsubishi",
+        Model: "Space Star II",
+        Year: "2019",
+        Gearbox: "механика",
+        Engine_L: 1.0,
+        Fuel: "бензин",
+        Body_style: "хэтчбек",
+        Price: 45,
+        Bookmark:  false
+      },
+      {
+        id: 8,
+        img: require('../img/VolvoS80.jpg'),
+        Brand: "Volvo",
+        Model: "S80 II",
+        Year: "2008",
+        Gearbox: "автомат",
+        Engine_L: 3.2,
+        Fuel: "бензин",
+        Body_style: "седан",
+        Price: 45,
+        Bookmark: false
+      },
+      {
+        id: 9,
+        img: require('../img/SkodaRoomster.jpg'),
+        Brand: "Skoda",
+        Model: "Roomster I",
+        Year: "2010",
+        Gearbox: "механика",
+        Engine_L: 1.2,
+        Fuel: "бензин",
+        Body_style: "минивэн",
+        Price: 50,
+        Bookmark:  false
+      },
+      {
+        id: 10,
+        img: require('../img/ToyotaCamry.jpg'),
+        Brand: "Toyota",
+        Model: "Camry XV40",
+        Year: "2011",
+        Gearbox: "автомат",
+        Engine_L: 2.4,
+        Fuel: "бензин",
+        Body_style: "седан",
+        Price: 65,
+        Bookmark: false
+      },
+     ])
   return (
     <main>
 
